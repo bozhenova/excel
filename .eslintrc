@@ -5,16 +5,9 @@
     "browser": true,
     "node": true
   },
-  "plugins": [
-    "prettier"
-  ],
+  "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": [
-      "error"
-    ]
+    "prettier/prettier": ["error"]
   },
-  "extends": [
-    "airbnb",
-    "prettier"
-  ]
+  "extends": ["airbnb-base", "plugin:prettier/recommended"]
 }
