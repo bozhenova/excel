@@ -16,7 +16,11 @@
     "no-param-reassign": "off",
     "no-plusplus": "off",
     "no-use-before-define": "off",
-    "default-case": "off"
+    "default-case": "off",
+    "consistent-return": "off",
+    "func-names": "off",
+    "no-debugger": "warn",
+    "no-eval": "warn"
   },
   "extends": ["airbnb-base", "plugin:prettier/recommended"]
 }
