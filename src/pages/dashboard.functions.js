@@ -27,7 +27,7 @@ function getAllKeys() {
 export function createRecordsTable() {
   const keys = getAllKeys();
   if (!keys.length) {
-    return ` <p>No spreadsheets to show</p>;`;
+    return ` <p class="db__info no-spreadsheets">No spreadsheets to show</p>`;
   }
   return `<div class="db__list-header">
             <span>Title</span>

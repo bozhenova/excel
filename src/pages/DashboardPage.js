@@ -9,7 +9,7 @@ export class DashboardPage extends Page {
           <h1>Excel Dashboard</h1>
         </div>
         <div class="db__new">
-        <p>Start a new spreadsheet</p>
+        <p class="db__info new-spreadsheet">Start a new spreadsheet</p>
           <div class="db__view">
             <a href="#excel/${now}" class="db__create">
               +
